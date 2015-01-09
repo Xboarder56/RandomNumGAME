@@ -1,7 +1,7 @@
 /*
  * Garrett J. Beasley
  * 01/08/2015
- * MAIN.java
+ * randGame.java
  * 
  */
 
@@ -26,12 +26,12 @@ import java.awt.Color;
  * Once the option is selected the user then completes the game
  * and will have a option to enter the game once again. 
  */
-public class MAIN 
+public class randGame 
 {
 	/*Variables for the program.*/
-	public static int tails, heads;
-	static int[] Array;
-	static int loopCounter;
+	private static int tails, heads;
+	private static int[] Array;
+	private static int loopCounter;
 	
 	public static void main(String[] args)
 	{
@@ -192,6 +192,7 @@ public class MAIN
 	}
 	
 	/** 
+	 * This will read what the user inputs under the UI
 	 * @description: This will read the users input from the UI then
 	 * there selected decision will be placed into a variable between 1-4
 	 * and compared to the programmed selections (Array, Coin, Color, Exit, Not valid)
